@@ -1,3 +1,5 @@
+#treinamento de fotos para eigenface, fisherface, lbph
+
 import cv2
 import os
 import numpy as np

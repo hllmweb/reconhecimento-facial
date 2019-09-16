@@ -1,9 +1,11 @@
+#capturando foto (tirando fotos)
+
 import cv2
 
 classificador = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 camera = cv2.VideoCapture(0)
 amostra = 1
-numeroAmostras = 3
+numeroAmostras = 3 #quantida de fotos
 id = input('Digite seu identificador: ')
 largura, altura = 220, 220
 print("Capturando as faces...")

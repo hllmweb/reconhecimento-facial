@@ -1,3 +1,5 @@
+#reconhecimento de fotos
+
 import cv2
 
 detectorFace = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
